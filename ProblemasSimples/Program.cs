@@ -1,1 +1,3 @@
-﻿
+﻿using ProblemasSimples;
+
+PonteirosConvergentes.ExecutarAlgoritmo();
