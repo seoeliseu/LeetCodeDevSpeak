@@ -1,3 +1,3 @@
 ﻿using ProblemasSimples;
 
-PonteirosConvergentes.ExecutarAlgoritmo();
+SomaDigitosDeUmaCadeia.ExecutarAlgoritmo();
