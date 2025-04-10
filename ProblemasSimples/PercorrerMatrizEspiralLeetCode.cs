@@ -4,11 +4,11 @@
     {
         public static void ExecutarAlgoritmo()
         {
-            var matriz = new int[3, 9]
+            var matriz = new int[3, 4]
             {
-                {1, 2, 3, 4, 5, 6, 7, 8, 9},
-                {4, 5, 6, 4, 5, 6, 7, 8, 9},
-                {7, 8, 9, 4, 5, 6, 7, 8, 9}
+                {1, 2, 3, 4},
+                {10, 11, 12, 5},
+                {9, 8, 7, 6}
             };
             var resultado = PercorrerMatrizEspiral(matriz);
             Console.WriteLine(string.Join(", ", resultado));
